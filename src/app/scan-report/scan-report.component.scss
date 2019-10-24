@@ -1,0 +1,45 @@
+.title {
+    font-family: 'exo';
+    color: #232329;
+    text-align: center;
+    padding: 1em;
+    font-weight: bold;
+}
+
+.scan-progress {
+    position: relative;
+    z-index: 10;
+}
+
+.border-danger {
+    border-left: 11px solid red !important;
+    background-color: #ff8d8d !important;
+}
+
+.border-success {
+    border-left: 11px solid #c7e596 !important;
+}
+
+.circle {
+    position: absolute;
+    height: 10em;
+    width: 10em;
+    border-radius: 50%;
+    background-color: #232329;
+    transform: translateX(100%);
+}
+
+.av-card {
+    background-color: #fff;
+    border: 1px solid #c7e596;
+    border-radius: 0.625rem;
+    padding: 1em;
+    margin-top: 1em;
+    text-align: center;
+}
+
+.av-card:hover {
+    box-shadow: 0 0.1rem 1rem rgba(120, 192, 0, 0.37), 0px 0rem 0rem rgba(114, 166, 226, 0.64), 0px 0rem 0rem rgba(114, 166, 226, 0.64), 0 0rem 0.1875rem rgba(114, 166, 226, 0.64);
+    transition: 1s ease-in-out cubic-bezier(0.075, 0.82, 0.165, 1);
+    cursor: pointer;
+}
